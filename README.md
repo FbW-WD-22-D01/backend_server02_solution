@@ -1,4 +1,4 @@
-# Star Wrapper
+# Star Wrapper -Solution
 
 ⭐ Make stars appear in your terminal! ⭐
 
@@ -23,39 +23,4 @@ $ node solution.js 12 Sonnenschein
 ************
 Sonnenschein
 ************
-```
-
-## Tasks
-
-### Task 1
-
-1. Create the file `stars.js`
-2. Inside this file, write a function that takes 2 arguments;
-   - the **number of stars**
-   - the **string** of text to display
-
-### Task 2
-
-1. Inside your function, and using `console.log()`, print 3 lines of text;
-
-   - **Line 1** - Should be a row of stars - the number of stars must equal the number received into the function
-   - **Line 2** - The text
-   - **Line 3** - Same as line 1
-
-2. If no **number of stars** are passed to the function, the function should use **10** as the default number
-3. If no **string** is passed into the function, the function should use **"hi"** as the default string
-4. Export your function as **default export (esm)**
-
-## Task 3
-
-1. Create the file `solution.js`
-2. Import the function you created in `stars.js`
-3. Read the arguments from the terminal with `process.argv` and run the function you just imported, passing in those arguments
-
-## Task 4
-
-Test your program in the terminal, by running the command
-
-```bash
-node solution.js 12 Sonnenschein`
 ```
